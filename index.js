@@ -111,7 +111,7 @@ for (var i = 0; i < defaultDiacriticsRemovalMap.length; i++) {
 }
 
 module.exports = {
-    removeAccents: function (st) {
+    remove: function (st) {
         return st.replace(/[^\u0000-\u007E]/g, function (a) {
             return diacriticsMap[a] || a;
         });
