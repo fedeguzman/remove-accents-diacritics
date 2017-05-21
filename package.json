@@ -1,0 +1,27 @@
+{
+    "name": "remove-accents-diacritics",
+    "version": "1.0",
+    "description": "Remove all accents and diacritics and replace them with the same letter without the diacritic",
+    "license": "Apache-2.0",
+    "author": {
+        "name": "Federico Guzman",
+        "email": "fedeguzmanc@gmail.com",
+        "url": "fedeguzman.com"
+    },
+    "contributors": [
+        {
+            "name": "Awesome people from the internet",
+            "url": "http://stackoverflow.com/questions/990904/remove-accents-diacritics-in-a-string-in-javascript"
+        }
+    ],
+    "scripts": {
+        "test": "ava"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [],
+    "devDependencies": {
+        "ava": "*"
+    }
+}
