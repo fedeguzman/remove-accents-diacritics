@@ -2,7 +2,7 @@
 
 > Remove all accents and diacritics in a string and replace them with the same letter without the diacritic Edit
 
-# Install
+## Install
 
 ```js
 $ npm install remove-accents-diacritics 
@@ -12,7 +12,7 @@ $ npm install remove-accents-diacritics
 $ yarn add remove-accents-diacritics 
 ```
 
-# Install
+## Usage
 
 ```js
 const removeAccents = require('remove-accents-diacritics');
@@ -22,10 +22,10 @@ const string = "cafetière";
 const wordWithNoDiacritics = removeAccents.remove(string);
 ```
 
-# About this module
+## About this module
 
 You can find more information about the code of this module here: http://stackoverflow.com/questions/990904/remove-accents-diacritics-in-a-string-in-javascript
 
-# License
+## License
 
 Apache 2.0 © [Fede Guzmán](fedeguzman.com)
