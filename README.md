@@ -1,6 +1,6 @@
 # remove-accents-diacritics
 
-> Remove all accents and diacritics in a string and replace them with the same letter without the diacritic Edit
+> Remove all accents and diacritics in a string and replace them with the same letter without the diacritic
 
 ## Install
 
@@ -16,11 +16,15 @@ $ yarn add remove-accents-diacritics
 
 ```js
 const removeAccents = require('remove-accents-diacritics');
+// import removeAccents from 'remove-accents-diacritics';
 
 const string = "cafetière";
 
 const wordWithNoDiacritics = removeAccents.remove(string);
 ```
+
+
+
 
 ## About this module
 
