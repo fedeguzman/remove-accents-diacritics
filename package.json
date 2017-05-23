@@ -1,6 +1,6 @@
 {
     "name": "remove-accents-diacritics",
-    "version": "1.0",
+    "version": "1.0.0",
     "description": "Remove all accents and diacritics and replace them with the same letter without the diacritic",
     "license": "Apache-2.0",
     "author": {
