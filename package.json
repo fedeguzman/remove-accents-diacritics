@@ -1,6 +1,6 @@
 {
     "name": "remove-accents-diacritics",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Remove all accents and diacritics and replace them with the same letter without the diacritic",
     "license": "Apache-2.0",
     "author": {
@@ -20,8 +20,11 @@
     "files": [
         "index.js"
     ],
-    "keywords": [],
+    "keywords": ["accents", "module", "es6", "nodejs", "diacritics", "remove-diacritics", "remove-accents"],
     "devDependencies": {
         "ava": "*"
-    }
+    },
+	"bugs": {
+    "url": "https://github.com/fedeguzman/remove-accents-diacritics"
+  }
 }
